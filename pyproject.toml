@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "books"
+version = "0.1.0"
+description = "backend for book store"
+authors = ["Denis <isayan1998@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.86.0"
+uvicorn = "^0.19.0"
+pydantic = "^1.10.2"
+sqlalchemy = "^1.4.42"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
